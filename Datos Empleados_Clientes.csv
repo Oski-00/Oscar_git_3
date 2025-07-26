@@ -1,0 +1,65 @@
+"Nombre_Empleado","Title","ReportsTo","Ciudad_Empleado","Country","Nombre_Cliente","Company","Ciudad_Cliente","Country","CustomerId"
+Jane Peacock,Sales Support Agent,2,Calgary,Canada,Luís Gonçalves,Embraer - Empresa Brasileira de Aeronáutica S.A.,São José dos Campos,Brazil,1
+Steve Johnson,Sales Support Agent,2,Calgary,Canada,Leonie Köhler,,Stuttgart,Germany,2
+Jane Peacock,Sales Support Agent,2,Calgary,Canada,François Tremblay,,Montréal,Canada,3
+Margaret Park,Sales Support Agent,2,Calgary,Canada,Bjørn Hansen,,Oslo,Norway,4
+Margaret Park,Sales Support Agent,2,Calgary,Canada,František Wichterlová,JetBrains s.r.o.,Prague,Czech Republic,5
+Steve Johnson,Sales Support Agent,2,Calgary,Canada,Helena Holý,,Prague,Czech Republic,6
+Steve Johnson,Sales Support Agent,2,Calgary,Canada,Astrid Gruber,,Vienne,Austria,7
+Margaret Park,Sales Support Agent,2,Calgary,Canada,Daan Peeters,,Brussels,Belgium,8
+Margaret Park,Sales Support Agent,2,Calgary,Canada,Kara Nielsen,,Copenhagen,Denmark,9
+Margaret Park,Sales Support Agent,2,Calgary,Canada,Eduardo Martins,Woodstock Discos,São Paulo,Brazil,10
+Steve Johnson,Sales Support Agent,2,Calgary,Canada,Alexandre Rocha,Banco do Brasil S.A.,São Paulo,Brazil,11
+Jane Peacock,Sales Support Agent,2,Calgary,Canada,Roberto Almeida,Riotur,Rio de Janeiro,Brazil,12
+Margaret Park,Sales Support Agent,2,Calgary,Canada,Fernanda Ramos,,Brasília,Brazil,13
+Steve Johnson,Sales Support Agent,2,Calgary,Canada,Mark Philips,Telus,Edmonton,Canada,14
+Jane Peacock,Sales Support Agent,2,Calgary,Canada,Jennifer Peterson,Rogers Canada,Vancouver,Canada,15
+Margaret Park,Sales Support Agent,2,Calgary,Canada,Frank Harris,Google Inc.,Mountain View,USA,16
+Steve Johnson,Sales Support Agent,2,Calgary,Canada,Jack Smith,Microsoft Corporation,Redmond,USA,17
+Jane Peacock,Sales Support Agent,2,Calgary,Canada,Michelle Brooks,,New York,USA,18
+Jane Peacock,Sales Support Agent,2,Calgary,Canada,Tim Goyer,Apple Inc.,Cupertino,USA,19
+Margaret Park,Sales Support Agent,2,Calgary,Canada,Dan Miller,,Mountain View,USA,20
+Steve Johnson,Sales Support Agent,2,Calgary,Canada,Kathy Chase,,Reno,USA,21
+Margaret Park,Sales Support Agent,2,Calgary,Canada,Heather Leacock,,Orlando,USA,22
+Margaret Park,Sales Support Agent,2,Calgary,Canada,John Gordon,,Boston,USA,23
+Jane Peacock,Sales Support Agent,2,Calgary,Canada,Frank Ralston,,Chicago,USA,24
+Steve Johnson,Sales Support Agent,2,Calgary,Canada,Victor Stevens,,Madison,USA,25
+Margaret Park,Sales Support Agent,2,Calgary,Canada,Richard Cunningham,,Fort Worth,USA,26
+Margaret Park,Sales Support Agent,2,Calgary,Canada,Patrick Gray,,Tucson,USA,27
+Steve Johnson,Sales Support Agent,2,Calgary,Canada,Julia Barnett,,Salt Lake City,USA,28
+Jane Peacock,Sales Support Agent,2,Calgary,Canada,Robert Brown,,Toronto,Canada,29
+Jane Peacock,Sales Support Agent,2,Calgary,Canada,Edward Francis,,Ottawa,Canada,30
+Steve Johnson,Sales Support Agent,2,Calgary,Canada,Martha Silk,,Halifax,Canada,31
+Margaret Park,Sales Support Agent,2,Calgary,Canada,Aaron Mitchell,,Winnipeg,Canada,32
+Jane Peacock,Sales Support Agent,2,Calgary,Canada,Ellie Sullivan,,Yellowknife,Canada,33
+Margaret Park,Sales Support Agent,2,Calgary,Canada,João Fernandes,,Lisbon,Portugal,34
+Margaret Park,Sales Support Agent,2,Calgary,Canada,Madalena Sampaio,,Porto,Portugal,35
+Steve Johnson,Sales Support Agent,2,Calgary,Canada,Hannah Schneider,,Berlin,Germany,36
+Jane Peacock,Sales Support Agent,2,Calgary,Canada,Fynn Zimmermann,,Frankfurt,Germany,37
+Jane Peacock,Sales Support Agent,2,Calgary,Canada,Niklas Schröder,,Berlin,Germany,38
+Margaret Park,Sales Support Agent,2,Calgary,Canada,Camille Bernard,,Paris,France,39
+Margaret Park,Sales Support Agent,2,Calgary,Canada,Dominique Lefebvre,,Paris,France,40
+Steve Johnson,Sales Support Agent,2,Calgary,Canada,Marc Dubois,,Lyon,France,41
+Jane Peacock,Sales Support Agent,2,Calgary,Canada,Wyatt Girard,,Bordeaux,France,42
+Jane Peacock,Sales Support Agent,2,Calgary,Canada,Isabelle Mercier,,Dijon,France,43
+Jane Peacock,Sales Support Agent,2,Calgary,Canada,Terhi Hämäläinen,,Helsinki,Finland,44
+Jane Peacock,Sales Support Agent,2,Calgary,Canada,Ladislav Kovács,,Budapest,Hungary,45
+Jane Peacock,Sales Support Agent,2,Calgary,Canada,Hugh O'Reilly,,Dublin,Ireland,46
+Steve Johnson,Sales Support Agent,2,Calgary,Canada,Lucas Mancini,,Rome,Italy,47
+Steve Johnson,Sales Support Agent,2,Calgary,Canada,Johannes Van der Berg,,Amsterdam,Netherlands,48
+Margaret Park,Sales Support Agent,2,Calgary,Canada,Stanisław Wójcik,,Warsaw,Poland,49
+Steve Johnson,Sales Support Agent,2,Calgary,Canada,Enrique Muñoz,,Madrid,Spain,50
+Steve Johnson,Sales Support Agent,2,Calgary,Canada,Joakim Johansson,,Stockholm,Sweden,51
+Jane Peacock,Sales Support Agent,2,Calgary,Canada,Emma Jones,,London,United Kingdom,52
+Jane Peacock,Sales Support Agent,2,Calgary,Canada,Phil Hughes,,London,United Kingdom,53
+Steve Johnson,Sales Support Agent,2,Calgary,Canada,Steve Murray,,Edinburgh ,United Kingdom,54
+Margaret Park,Sales Support Agent,2,Calgary,Canada,Mark Taylor,,Sidney,Australia,55
+Margaret Park,Sales Support Agent,2,Calgary,Canada,Diego Gutiérrez,,Buenos Aires,Argentina,56
+Steve Johnson,Sales Support Agent,2,Calgary,Canada,Luis Rojas,,Santiago,Chile,57
+Jane Peacock,Sales Support Agent,2,Calgary,Canada,Manoj Pareek,,Delhi,India,58
+Jane Peacock,Sales Support Agent,2,Calgary,Canada,Puja Srivastava,,Bangalore,India,59
+Andrew Adams,General Manager,,Edmonton,Canada, ,,,,
+Nancy Edwards,Sales Manager,1,Calgary,Canada, ,,,,
+Michael Mitchell,IT Manager,1,Calgary,Canada, ,,,,
+Robert King,IT Staff,6,Lethbridge,Canada, ,,,,
+Laura Callahan,IT Staff,6,Lethbridge,Canada, ,,,,

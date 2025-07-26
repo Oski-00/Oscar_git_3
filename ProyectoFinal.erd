@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<diagram version="1" name="nuevo.erd">
+	<entities>
+		<data-source id="dbeaver-sample-database-sqlite-1">
+			<entity id="1" name="Album" fq-name="Album" order="0" x="400" y="471"/>
+			<entity id="2" name="Artist" fq-name="Artist" order="1" x="529" y="470"/>
+			<entity id="3" name="Customer" fq-name="Customer" order="2" x="391" y="82"/>
+			<entity id="4" name="Employee" fq-name="Employee" order="3" x="541" y="46"/>
+			<entity id="5" name="Genre" fq-name="Genre" order="4" x="438" y="593"/>
+			<entity id="6" name="Invoice" fq-name="Invoice" order="5" x="203" y="197"/>
+			<entity id="7" name="InvoiceLine" fq-name="InvoiceLine" order="6" x="32" y="120"/>
+			<entity id="8" name="MediaType" fq-name="MediaType" order="7" x="406" y="722"/>
+			<entity id="9" name="Playlist" fq-name="Playlist" order="8" x="53" y="663"/>
+			<entity id="10" name="PlaylistTrack" fq-name="PlaylistTrack" order="9" x="50" y="519"/>
+			<entity id="11" name="sqlite_schema" fq-name="sqlite_schema" order="10" x="42" y="899"/>
+			<entity id="12" name="Track" fq-name="Track" order="11" x="197" y="470"/>
+		</data-source>
+	</entities>
+	<relations>
+		<relation name="FK_Track_Album" fq-name="Track.FK_Track_Album" type="fk" pk-ref="1" fk-ref="12"/>
+		<relation name="FK_Album_Artist" fq-name="Album.FK_Album_Artist" type="fk" pk-ref="2" fk-ref="1"/>
+		<relation name="FK_Invoice_Customer" fq-name="Invoice.FK_Invoice_Customer" type="fk" pk-ref="3" fk-ref="6"/>
+		<relation name="FK_Customer_Employee" fq-name="Customer.FK_Customer_Employee" type="fk" pk-ref="4" fk-ref="3"/>
+		<relation name="FK_Employee_Employee" fq-name="Employee.FK_Employee_Employee" type="fk" pk-ref="4" fk-ref="4">
+			<bend type="rel" x="678" y="240"/>
+			<bend type="rel" x="706" y="226"/>
+			<bend type="rel" x="706" y="199"/>
+			<bend type="rel" x="678" y="185"/>
+		</relation>
+		<relation name="FK_Track_Genre_2" fq-name="Track.FK_Track_Genre_2" type="fk" pk-ref="5" fk-ref="12"/>
+		<relation name="FK_InvoiceLine_Invoice" fq-name="InvoiceLine.FK_InvoiceLine_Invoice" type="fk" pk-ref="6" fk-ref="7"/>
+		<relation name="FK_Track_MediaType_3" fq-name="Track.FK_Track_MediaType_3" type="fk" pk-ref="8" fk-ref="12"/>
+		<relation name="FK_PlaylistTrack_Playlist" fq-name="PlaylistTrack.FK_PlaylistTrack_Playlist" type="fk" pk-ref="9" fk-ref="10"/>
+		<relation name="FK_InvoiceLine_Track_2" fq-name="InvoiceLine.FK_InvoiceLine_Track_2" type="fk" pk-ref="12" fk-ref="7"/>
+		<relation name="FK_PlaylistTrack_Track_2" fq-name="PlaylistTrack.FK_PlaylistTrack_Track_2" type="fk" pk-ref="12" fk-ref="10"/>
+	</relations>
+</diagram>
