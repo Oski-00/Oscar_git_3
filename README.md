@@ -160,3 +160,7 @@ El proyecto está abierto a cualquier contribución que se quiera indicar y a cu
 
 # 7. Autor.
 
+Óscar Pérez Chico
+
+<img width="167" height="33" alt="image" src="https://github.com/user-attachments/assets/53ed93a7-ac09-486d-bb3d-df8be38a833c" />
+
