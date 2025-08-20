@@ -59,3 +59,104 @@ Por último, realizo la limpieza del archivo que contiene los datos de las factu
 
 <img width="995" height="897" alt="image" src="https://github.com/user-attachments/assets/fbc85c5f-12b7-441c-a19c-ef375214c33a" />
 
+# 1.3 Análisis de los datos mediante Dashboards en Excel.
+
+Una vez obtenidos los tres archivos Excel con los datos de las canciones, empleados - clientes y las facturas, quiero montar un modelo en Excel para poder analizar los datos de las tablas.
+
+Lo primero que hago es ir a la opción de modelo de datos en Excel, y cargar mis tres archivos. Una vez cargados, los relaciono mediente las columnas de Id que comentaba en el apartado de SQL. Cuando ya tengo mis tres tablas relacionadas, añado al modelo una tabla calendario para poder realizar análisis por periodos de tiempo. El modelo que he preparado queda de la siguiente manera:
+
+<img width="966" height="512" alt="image" src="https://github.com/user-attachments/assets/0cdea64b-6ea1-4387-b41b-3e9b4112689e" />
+
+Como mis tablas y los Dashboards que voy a preparar van a estar en un mismo archivo, decido hacer dos menús interactivos, uno para mostrar la información de las tablas y el análisis con tablas dinámicas realizado sobre ellas,
+
+<img width="160" height="476" alt="image" src="https://github.com/user-attachments/assets/c33b17e4-4ca1-45f0-a950-9e06664be7ac" />
+
+y otro, para mostrar directamente los dashboards con los datos más relevantes. 
+
+<img width="1492" height="75" alt="image" src="https://github.com/user-attachments/assets/04f0c202-8d90-43c2-b815-afda088105b8" />
+
+Como el análisis de los datos es de un modelo de tres tablas, he decidido realizar cuatro dashboards diferentes para tener un análisis completo del modelo.
+
+El primero de ellos tendría la información más relevante del modelo, analizando los datos mediante la relación de las diferentes tablas
+
+<img width="1581" height="660" alt="image" src="https://github.com/user-attachments/assets/e34eccc4-41d3-47d2-994f-eed06629e50b" />
+
+Los siguientes dashboards contienen el análisis individual de los datos de cada tabla obtenida, es decir:
+
+# Para la tabla de Canciones:
+
+<img width="1615" height="660" alt="image" src="https://github.com/user-attachments/assets/138a2921-d71a-43d1-99ab-7ea38adbe859" />
+
+
+# Para la tabla de Empleados - Clientes
+
+<img width="1568" height="651" alt="image" src="https://github.com/user-attachments/assets/4d93b8a2-d162-49cc-b152-a7129d11ca34" />
+
+
+# Para la tabla de Facturas:
+
+<img width="1593" height="658" alt="image" src="https://github.com/user-attachments/assets/6c161725-e668-4ec7-8103-894a4221de16" />
+
+Con este último paso, tendríamos el análisis de los datos obtenidos mediante las consultas realizadas a una base de datos inicial.
+
+# 2. Estructura del proyecto.
+
+A continuación, describo los archivos obtenidos que se encuentran en el repositorio.
+
+Primer Paso SQL:
+
+Tres archivos con los scripts para la obtención de la tabla de Canciones, Tabla de empleados - Clientes y Tabla de Facturas.
+
+Obtenemos los archivos Datos Canciones_inicial, Datos Empleados_Clientes_Inicial y Datos Facturas_inicial
+
+Segundo Paso Python:
+
+Tres archivos con los scripts para la limpieza de los archivos anteriores.
+
+Obtenemos los archivos Datos Canciones - modificado, Datos empleados_Clientes-modificado y Datos Facturas - modificado
+
+Tercer paso Excel.
+   
+Un archivo Data_Anal_PFinal con el análisis de los datos obtenidos de los pasos anteriores.
+
+** También añado un archivo denominado Análisis Datos Obtenidos, que contiene el análisis de manera redactada de los datos más relevantes que se han obtenido del modelo.
+
+# 3. Instalación y requisitos.
+
+Este proyecto se estructura mediante una serie de archivos que hemos obtenido de una base de datos inicial. Los programas que he utilizado para obtener dichos archivos serían los siguientes:
+
+- DBeaver, versión 25.1.3
+  
+- Visual Studio Code 1.97.0
+    con las siguientes Librerías:
+    1. Pandas
+    2. Openpyxl
+      
+- Microsoft Excel
+
+# 4. Resultados y conclusiones.
+
+Los resultados y las conclusiones están analizadas en profundidad en el archivo Análisis Datos Obtenidos, pero como resumen puedo indicar lo siguiente:
+
+Las mayoría de las ventas se encuentran concentradas en muy pocos países, no ha diversificación de las mismas
+
+<img width="491" height="299" alt="image" src="https://github.com/user-attachments/assets/46c9d6c5-3375-45f0-a6c0-7f76525c6427" />
+
+A parte, el modelo se sostiene con ventas de poco importe, no hay grandes ventas durante el transcurso de los años. Con el paso del tiempo las ventas son estables por importes muy parecidos y sin grandes subidas.
+
+<img width="523" height="106" alt="image" src="https://github.com/user-attachments/assets/58973e04-24bf-4475-b0dd-e2ebed914297" />
+
+Así mismo, las ventas también se concentran en muy pocas canciones y con las mayores ventas concentradas en la franja de 40 € - 50 €.
+
+<img width="550" height="680" alt="image" src="https://github.com/user-attachments/assets/32e2f072-ebcb-49d7-9a47-e1b5fe0f46e4" />
+
+# 5. Próximos Pasos.
+
+Este sería el proyecto final del curso, por lo que no debería llevar un desarrollo posterior al realizado hasta ahora. Siempre se podría retocar y mejorar con las indicaciones qeu me dieran los profesores con su análisis,
+
+# 6. Contribuciones
+
+El proyecto está abierto a cualquier contribución que se quiera indicar y a cualquier mejora sugerida.
+
+# 7. Autor.
+
